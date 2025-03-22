@@ -2,6 +2,7 @@ import pygame
 pygame.init()
 screen = pygame.display.set_mode((600,400))
 running = True
+pygame.transform.c
 while running:
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
